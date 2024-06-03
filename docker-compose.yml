@@ -1,0 +1,9 @@
+services:
+  backend:
+    image: bitnami/postgresql:latest
+    environment:
+      - POSTGRESQL_USERNAME=user
+      - POSTGRESQL_PASSWORD=user
+      - POSTGRESQL_DATABASE=backend
+    ports:
+      - "5432:5432"

@@ -4,7 +4,8 @@
   "description": "Este desafio foi projetado para avaliar a sua capacidade técnica como candidato ao cargo de Desenvolvedor Backend Júnior. Esperamos que você demonstre habilidades em autenticação, autorização e manipulação de dados utilizando tecnologias comuns em desenvolvimento backend.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx --watch src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,10 +15,12 @@
     "@types/express": "^4.17.21",
     "@types/node": "^20.14.0",
     "eslint": "^8.57.0",
+    "prisma": "^5.14.0",
     "tsx": "^4.11.2",
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "@prisma/client": "^5.14.0",
     "express": "^4.19.2"
   }
 }

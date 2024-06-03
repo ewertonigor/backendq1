@@ -7,7 +7,7 @@ Este desafio foi projetado para avaliar a sua capacidade técnica como candidato
 
 Implemente um sistema de autenticação e autorização em uma API RESTful usando JWT (JSON Web Tokens). A aplicação deve ter as seguintes funcionalidades:
 
-- [ ] Criar banco de dados
+- [x] Criar banco de dados
 - [ ] Disponibilizar um arquivo chamado "creation.sql" para os intrevistadores validar a criação
 - [ ] Conexão com o banco de dados
 - [ ] Criar rota para registro de usuários
