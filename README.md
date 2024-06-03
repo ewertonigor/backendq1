@@ -9,8 +9,8 @@ Implemente um sistema de autenticação e autorização em uma API RESTful usand
 
 - [x] Criar banco de dados
 - [ ] Disponibilizar um arquivo chamado "creation.sql" para os intrevistadores validar a criação
-- [ ] Conexão com o banco de dados
-- [ ] Criar rota para registro de usuários
+- [x] Conexão com o banco de dados
+- [x] Criar rota para registro de usuários
 - [ ] As senhas dos usuário devem estar criptografadas (Ex.: Usando um hash do bycript)
 - [ ] Criar rota para login de usuários, gerando um token JWT ao logar
 - [ ] Criar rota para adicionar um item ao usuário protejida pelo JWT
