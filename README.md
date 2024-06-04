@@ -11,12 +11,12 @@ Implemente um sistema de autenticação e autorização em uma API RESTful usand
 - [ ] Disponibilizar um arquivo chamado "creation.sql" para os intrevistadores validar a criação
 - [x] Conexão com o banco de dados
 - [x] Criar rota para registro de usuários
-- [ ] As senhas dos usuário devem estar criptografadas (Ex.: Usando um hash do bycript)
-- [ ] Criar rota para login de usuários, gerando um token JWT ao logar
-- [ ] Criar rota para adicionar um item ao usuário protejida pelo JWT
-- [ ] Criar rota para buscar os itens do usuário protejida pelo JWT
-- [ ] Criar rota para atualização dos itens do usuário protejida pelo JWT
-- [ ] Criar rota para exclusão de um item do usuário protejida pelo JWT
+- [x] As senhas dos usuário devem estar criptografadas (Ex.: Usando um hash do bycript)
+- [x] Criar rota para login de usuários, gerando um token JWT ao logar
+- [x] Criar rota para adicionar um item ao usuário protejida pelo JWT
+- [x] Criar rota para buscar os itens do usuário protejida pelo JWT
+- [x] Criar rota para atualização dos itens do usuário protejida pelo JWT
+- [x] Criar rota para exclusão de um item do usuário protejida pelo JWT
 
 **Observações:**
 > - Você pode criar as tabelas do modo que você achar melhor, respeitando somente que as chaves primárias devem ser um UUID;
